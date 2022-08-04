@@ -1,0 +1,57 @@
+/*  
+    Theme Name: sports_sample
+    Author: JaySportsDev
+    Description: Sample website created for a sample sports org
+    Version: 1.0.0
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.promo-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.right-promo {
+    color: #FFE200;
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+
+
+.elementor-widget-container h3 {
+    background-color: #FFE200;
+    width: 12rem;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.836);
+    margin-top: 60px;
+    margin-left: -260px;
+    display: inline !important;
+    justify-content: center;
+    padding-top: 2px;
+    padding-bottom: -30px;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+
+.elementor-widget-container li {
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-family: sans-serif;
+}
+
+
+.elementor-social-icons-wrapper elementor-grid .social-icons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100vh;
+}
