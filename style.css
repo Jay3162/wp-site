@@ -15,10 +15,9 @@ body {
     flex-direction: row;
 }
 
-
 .right-promo {
     color: #FFE200;
-    font-size: 30px;
+    font-size: 1.4vw;
     font-family: sans-serif;
     line-height: 30px;
 }
@@ -32,26 +31,51 @@ body {
     margin-top: 60px;
     margin-left: -260px;
     display: inline !important;
-    justify-content: center;
+    justify-content: flex-end;
     padding-top: 2px;
     padding-bottom: -30px;
-    align-items: center;
+    align-items: flex-end;
     padding-left: 10px;
-    
 }
 
 .elementor-widget-container li {
     list-style: none;
-    color: white;
+    color: rgb(160, 160, 160);
     display: flex;
     justify-content: flex-start;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
+.elementor-widget-container li:hover {
+    color: #FFE200;
+    cursor: pointer;
+}
 
 .elementor-social-icons-wrapper elementor-grid .social-icons {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     height: 100vh;
+}
+
+#click-btn {
+    box-shadow: inset 0 0 0 0 #FFE200;
+    transition: ease-out 1000ms;
+}
+
+#click-btn:hover {
+    box-shadow: inset 1000px 0 0 0 #FFE200;
+    transition: 2000ms;
+    z-index: 9;
+}
+
+@media (max-width: 800px) {
+    .elementor-widget-container h2 {
+        font-size: 6vw;
+    }
+
+    .elementor-widget-container h3 {
+        font-size: 4vw;
+    }
 }
