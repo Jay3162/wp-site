@@ -68,6 +68,7 @@ body {
     box-shadow: inset 1000px 0 0 0 #FFE200;
     transition: 2000ms;
     z-index: 9;
+    color: black;
 }
 
 @media (max-width: 800px) {
